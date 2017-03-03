@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bkg"
+    tools:context="com.example.feedbackapp.FirstActivity1" >
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" >
+    	<Button
+        	android:id="@+id/button1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+        	android:layout_marginTop="138dp"
+        	android:background="@drawable/buttonstyle"
+        	android:textStyle="bold|italic"
+         	android:autoLink="web"
+        	android:text="UPCOMING EVENT"/>
+	
+	    <Button
+        	android:id="@+id/button2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/button1"
+        	android:layout_centerHorizontal="true"
+       		android:layout_marginTop="69dp"
+	        android:background="@drawable/buttonstyle"
+        	android:textStyle="bold|italic"
+        	android:text="Event_feedback" />
+	
+    	<TextView
+	        android:id="@+id/textView1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+        	android:layout_marginTop="25dp"
+        	android:fontFamily="sans-serif-medium"
+        	android:textStyle="bold|italic"
+        	android:textColor="#0e0468"
+        	android:text="Welcome to Event App"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:id="@+id/r2"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+
+		<WebView
+		    android:id="@+id/webView1"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true" />
+	    
+	</RelativeLayout>
+</RelativeLayout>

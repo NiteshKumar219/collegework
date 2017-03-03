@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dr. MGR Univ. Feedback App</string>
+    <string name="action_settings">Settings</string>
+    <string name="pfa">Participation Feedback App</string>
+    <string name="sa">Select Anyone</string>
+    <string name="sn">Start Now</string>
+    <string name="dpt">Dept. :</string>
+    <string name="vn">Venue :</string>
+    <string name="dt">Date  :</string>
+    <string name="evt">Event :</string>
+    <string name="title_activity_logo">LogoActivity</string>
+    <string name="img_desc">Dr.M.G.R. Univ</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_topic">Please Login to provide Feedback</string>
+    <string name="login_text">Enter the Code</string>
+    <string name="login_hint">Code..</string>
+    <string name="login_btn">Login</string>
+    <string name="title_activity_f3">F3Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_activity_b">ActivityB</string>
+
+</resources>
